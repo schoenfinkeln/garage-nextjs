@@ -6,7 +6,7 @@ interface IndexPageProps {
 const IndexPage: NextPage<IndexPageProps> = ({ catImage }) => {
   return (
     <main>
-      <h1>Meow!</h1>
+      <h1>Meow!🐈</h1>
       <img src={catImage.url} alt="A random cat image"/>
     </main>
   )
